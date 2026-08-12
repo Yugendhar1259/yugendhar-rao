@@ -1,141 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>S. Yugendhar Rao | Portfolio</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-    body {
-      line-height: 1.6;
-      background: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background: #007acc;
-      color: #fff;
-      padding: 2rem;
-      text-align: center;
-    }
-    nav {
-      background: #005b9f;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #007acc;
-      margin-bottom: 1rem;
-    }
-    ul {
-      list-style-type: square;
-      margin-left: 1.5rem;
-    }
-    .contact {
-      background: #eee;
-      padding: 1rem;
-      text-align: center;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #007acc;
-      color: #fff;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S. Yugendhar Rao | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>S. Yugendhar Rao</h1>
-    <p>Aspiring Software Engineer | Hyderabad, Telangana</p>
-  </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#certifications">Certifications</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>S. Yugendhar Rao</h1>
+            
+        </div>
+    </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      As an aspiring software engineer with a solid foundation in programming
-      principles, data structures, and algorithms, I aim to build scalable,
-      efficient solutions while actively learning from experienced developers.
-    </p>
-    <h3>Education</h3>
-    <ul>
-      <li>B.Tech in Information Technology (Pursuing), Vignan Institute of Technology and Science</li>
-      <li>Intermediate (MPC), Aakash Junior College – 94.5%</li>
-      <li>SSC, Brilliant Grammar High School – CGPA 10.0</li>
-    </ul>
-  </section>
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certificates</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming Languages: C, Python, Java</li>
-      <li>Web Development: HTML, CSS</li>
-      <li>Backend Tools: Node.js, SQLite</li>
-    </ul>
-  </section>
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <h3>AI Plant Care</h3>
-    <p>
-      A smart web application that uses image recognition (via Plant.id API) to identify plants and provide care tips. Built using Node.js, Express.js, and SQLite.
-    </p>
-    <ul>
-      <li>Upload plant image</li>
-      <li>Get species name, sunlight, and watering tips</li>
-    </ul>
-  </section>
+        <p>
+            I am an Information Technology undergraduate at Vignan Institute
+            of Technology & Science with a strong interest in Software
+            Development, Artificial Intelligence, Machine Learning, and
+            Data Analytics.
+        </p>
 
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <h3>Infosys Springboard</h3>
-    <ul>
-      <li>Practical HTML & CSS</li>
-      <li>Java for Beginners</li>
-      <li>Introduction to Python</li>
-      <li>Learn and Master C Programming</li>
-    </ul>
-    <h3>Great Learning</h3>
-    <ul>
-      <li>Python for Beginners</li>
-    </ul>
-    <h3>Workshop</h3>
-    <ul>
-      <li>HTML & CSS5 by TASK (Telangana Academy for Skill and Knowledge)</li>
-    </ul>
-  </section>
+        <p>
+            I enjoy developing innovative web applications, AI-powered
+            solutions, and data-driven systems that solve real-world
+            problems. I am passionate about continuous learning and
+            applying technology to create meaningful impact.
+        </p>
+    </section>
 
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:yugendharraosiru@gmail.com">yugendharraosiru@gmail.com</a></p>
-  </section>
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
 
-  <footer>
-    <p>&copy; 2025 S. Yugendhar Rao. All rights reserved.</p>
-  </footer>
+        <div class="card">
+            <h3>B.Tech in Information Technology</h3>
+            <p>Vignan Institute of Technology & Science</p>
+            <p>CGPA: 8.39</p>
+            <p>Expected Graduation: 2027</p>
+        </div>
+
+        <div class="card">
+            <h3>Intermediate (MPC)</h3>
+            <p>Aakash Junior College</p>
+            <p>Percentage: 94%</p>
+        </div>
+
+        <div class="card">
+            <h3>SSC</h3>
+            <p>Brilliant Grammar High School</p>
+            <p>GPA: 10.0</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-box">
+                <h3>Programming Languages</h3>
+                <p>Python, SQL</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Libraries & Frameworks</h3>
+                <p>Pandas, NumPy, Matplotlib, Streamlit</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Data Visualization</h3>
+                <p>Power BI, Tableau, Excel, MySQL</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Tools</h3>
+                <p>Git, GitHub, VS Code, Jupyter Notebook</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Plant Growth Tracker – Plant Identification and Care Assistant</h3>
+            <p>
+                Developed a smart web application that identifies plants using
+                image recognition and provides detailed care instructions,
+                including species identification, sunlight requirements,
+                and watering guidelines.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>AI-Based Soil Classification and Farming Recommendation System</h3>
+            <p>
+                Built an AI-powered system using Convolutional Neural Networks
+                (CNN) to classify soil types and recommend suitable crops for
+                improved agricultural productivity.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Pranadhara Blood Connect – NSS Blood Donor Management System</h3>
+            <p>
+                Developed a full-stack blood donor management platform with
+                donor authentication, blood compatibility checking, donor
+                management, and blood camp administration features.
+            </p>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+
+        <ul class="cert-list">
+            <li>Data Analytics Job Simulation – Deloitte</li>
+            <li>Front-End Development with HTML5 & CSS3 – TASK</li>
+            <li>Python Essentials 1 – CISCO</li>
+            <li>Artificial Intelligence Fundamentals – IBM SkillBuild</li>
+            <li>Data Science Essentials with R – CISCO</li>
+        </ul>
+    </section>
+
+    <!-- Leadership -->
+    <section id="leadership">
+        <h2>Leadership & Activities</h2>
+
+        <div class="card">
+            <h3>NSS Secretary</h3>
+            <p>
+                Leading NSS activities by coordinating volunteers,
+                organizing community service programs, and managing
+                social outreach initiatives.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>NSS Pranadhara In-Charge</h3>
+            <p>
+                Coordinated blood donation drives, managed donor
+                registrations, and organized awareness campaigns
+                promoting voluntary blood donation.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <div class="contact-box">
+            <p>
+                Feel free to Contact me.
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:yugendharraosiru@gmail.com">
+                    yugendharraosiru@gmail.com
+                </a>
+            </p>
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="https://linkedin.com/in/yugendhar-rao-3ab495366/" target="_blank">
+                    linkedin.com/in/yugendhar-rao-3ab495366
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/Yugendhar1259" target="_blank">
+                    github.com/Yugendhar1259
+                </a>
+            </p>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 S. Yugendhar Rao. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
+```
